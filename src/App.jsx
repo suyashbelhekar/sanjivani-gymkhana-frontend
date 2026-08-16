@@ -11,6 +11,8 @@ import Equipment from './pages/Equipment';
 import AdminPortal from './pages/AdminPortal';
 import Login from './pages/Login';
 import ChangePassword from './pages/ChangePassword';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/equipment"
             element={

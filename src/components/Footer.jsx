@@ -31,7 +31,14 @@ export default function Footer() {
               Quick Links
             </h3>
             <ul className="space-y-2.5">
-              {[['/', 'Home'], ['/gallery', 'Gallery'], ['/dashboard', 'Live Sessions'], ['/equipment', 'Equipment Portal']].map(([to, label]) => (
+              {[
+                ['/', 'Home'],
+                ['/about', 'About Us'],
+                ['/gallery', 'Gallery'],
+                ['/dashboard', 'Live Sessions'],
+                ['/equipment', 'Equipment Portal'],
+                ['/contact', 'Contact Us'],
+              ].map(([to, label]) => (
                 <li key={to}>
                   <Link to={to}
                     className="text-white/50 hover:text-gold-400 text-sm transition-colors flex items-center gap-2">
@@ -48,17 +55,22 @@ export default function Footer() {
               Contact
             </h3>
             <div className="space-y-2.5">
-              <a href="tel:+919876543210"
+              <a href="tel:+919137700700"
                 className="flex items-center gap-2.5 text-white/50 hover:text-white text-sm transition-colors">
-                <Phone size={13} className="text-gold-400" /> +91 98765 43210
+                <Phone size={13} className="text-gold-400 flex-shrink-0" /> +91 9137700700
               </a>
-              <a href="mailto:gymkhana@sanjivani.edu.in"
+              <a href="tel:+919130191301"
                 className="flex items-center gap-2.5 text-white/50 hover:text-white text-sm transition-colors">
-                <Mail size={13} className="text-gold-400" /> gymkhana@sanjivani.edu.in
+                <Phone size={13} className="text-gold-400 flex-shrink-0" /> +91 9130191301
+              </a>
+              <a href="mailto:contact@sanjivani.edu.in"
+                className="flex items-center gap-2.5 text-white/50 hover:text-white text-sm transition-colors">
+                <Mail size={13} className="text-gold-400 flex-shrink-0" /> contact@sanjivani.edu.in
               </a>
               <div className="flex items-start gap-2.5 text-white/50 text-sm">
                 <MapPin size={13} className="text-gold-400 mt-0.5 flex-shrink-0" />
-                At/Post Sahajanandnagar, Kopargaon – 423603
+                Sanjivani University, Kopargaon,<br />
+                Near Shirdi, Ahilyanagar (Maharashtra), 423601.
               </div>
             </div>
           </div>

@@ -121,7 +121,7 @@ export default function Home() {
             {/* Hero image collage — each image zooms on hover */}
             <div className="hidden md:grid grid-cols-2 gap-3 animate-fade-in">
               <div className="rounded-2xl overflow-hidden row-span-2 h-72
-                              hover:scale-[1.02] transition-transform duration-400 shadow-lg hover:shadow-xl">
+                              hover:scale-[1.02] transition-transform duration-500 shadow-lg hover:shadow-xl">
                 <img src={imgGymkhana} alt="Gymkhana"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
@@ -155,7 +155,7 @@ export default function Home() {
                                  group-hover:text-white group-hover:scale-110
                                  group-hover:shadow-md group-hover:border-transparent
                                  ring-4 ring-transparent ${ring}
-                                 ${bg} transition-all duration-250`}>
+                                 ${bg} transition-all duration-300`}>
                   <span className="group-hover:rotate-12 inline-block transition-transform duration-200">
                     {icon}
                   </span>
@@ -259,7 +259,7 @@ export default function Home() {
               <div key={s.name}
                 className={`rounded-2xl border p-5 cursor-default animate-fade-in
                              shadow-sm hover:shadow-md hover:-translate-y-1
-                             transition-all duration-250 ${s.base} ${s.hover}`}
+                             transition-all duration-300 ${s.base} ${s.hover}`}
                 style={{ animationDelay: `${i * 80}ms` }}>
 
                 {/* Icon bounces on card hover */}
@@ -350,7 +350,7 @@ export default function Home() {
               <div className="bg-white/5 border border-white/10 rounded-2xl p-5
                                hover:bg-white/10 hover:border-white/25 hover:-translate-y-0.5
                                hover:shadow-lg hover:shadow-black/20
-                               transition-all duration-250">
+                               transition-all duration-300">
                 <div className="w-10 h-10 rounded-full bg-navy-600 flex items-center
                                  justify-center mb-3 text-lg
                                  hover:bg-gold-500 transition-colors duration-200">
@@ -380,7 +380,7 @@ export default function Home() {
               <div className="bg-white/5 border border-white/10 rounded-2xl p-5
                                hover:bg-white/10 hover:border-white/25 hover:-translate-y-0.5
                                hover:shadow-lg hover:shadow-black/20
-                               transition-all duration-250 flex flex-col justify-between">
+                               transition-all duration-300 flex flex-col justify-between">
                 <div>
                   <p className="text-white/40 text-xs uppercase tracking-widest mb-2">Office Hours</p>
                   <p className="text-white font-semibold">Mon – Sat</p>

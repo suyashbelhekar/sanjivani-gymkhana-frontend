@@ -5,9 +5,11 @@ import { Menu, X, Trophy, LogOut, Shield, ChevronDown, KeyRound } from 'lucide-r
 
 const NAV = [
   { to: '/',          label: 'Home' },
+  { to: '/about',     label: 'About' },
   { to: '/gallery',   label: 'Gallery' },
   { to: '/dashboard', label: 'Live Sessions' },
   { to: '/equipment', label: 'Equipment' },
+  { to: '/contact',   label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -41,10 +43,10 @@ export default function Navbar() {
       {/* ── Top utility bar (mimics Sanjivani site) ── */}
       <div className="topbar hidden md:block">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-          <span>Sanjivani University, At/Post Sahajanandnagar, Kopargaon – 423603</span>
+          <span>Sanjivani University, Kopargaon, Near Shirdi, Ahilyanagar (Maharashtra) – 423601</span>
           <div className="flex items-center gap-4">
-            <span>gymkhana@sanjivani.edu.in</span>
-            <span>+91 98765 43210</span>
+            <span>contact@sanjivani.edu.in</span>
+            <span>+91 9137700700 / +91 9130191301</span>
           </div>
         </div>
       </div>
