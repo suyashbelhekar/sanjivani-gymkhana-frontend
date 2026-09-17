@@ -25,6 +25,8 @@
 
 Built with **React 18**, **Vite**, and **Tailwind CSS**, the application delivers a blazing-fast, single-page application (SPA) experience with custom animations, role-based route protection, responsive layouts, and seamless backend integration.
 
+check it here : https://sanjivani-gymkhana-frontend.vercel.app/
+
 ### 🛠️ Tech Stack & Dependencies
 
 | Category | Technology | Purpose |
